@@ -1,0 +1,31 @@
+POST http://localhost:8081/products
+content-type: application/json
+
+{
+    "name": "Jogo de Copos 300ml",
+    "price": 85
+}
+
+###
+
+GET http://localhost:8081/products
+Content-Type: application/json
+
+###
+
+GET http://localhost:8081/products/
+
+
+###
+
+PUT http://localhost:8081/products/70fc86c4-b519-4861-8ed1-6a3fa6db0327
+content-type: application/json
+
+{
+    "name": "Jogo de Copos 400ml",
+    "price": 85
+}
+
+###
+
+DELETE http://localhost:8081/products/

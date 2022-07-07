@@ -1,0 +1,17 @@
+{
+  "name": "usando-node",
+  "version": "1.0.0",
+  "description": "Reforçando conhecimentos de Node.js",
+  "main": "index.js",
+  "scripts":{
+    "dev": "nodemon app.js"
+  },
+  "repository": "https://github.com/hitosanches/usando-node",
+  "author": "Henrique Sanches",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
